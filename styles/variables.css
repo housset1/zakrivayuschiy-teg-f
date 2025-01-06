@@ -1,1 +1,17 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+/* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+    --var-font: PressStart2P, sans-serif;
+    --main-font:Inter, sans-serif;
+    --title-fw:700;
+    --text-fw:400;
+    --f-size:18px;
+    --stroke-color:#ffffff;
+    --h-width:696px;
+    --bg-img:url(../images/bg.png);
+    --btn-txt-color-white:#ffffff;
+    --btn-txt-color-black:#000000;
+    --contour-color:black;
+    --sparks-color:#FF0000;
+    --main-body-color:#FF0000;
+}
