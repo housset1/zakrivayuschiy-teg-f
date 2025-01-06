@@ -1,3 +1,4 @@
+/* В этом файле вы импортируете все шрифты для сайта. Один из них вариативный и требует особенной настройки */
 @font-face {
     font-display: swap;
     font-family: 'PressStart2P';
@@ -15,4 +16,4 @@
       local('IBMPlexMono-Bold'),
       url('../fonts/IBMPlexMono-Bold.woff2') format('woff');
       font-weight: 400;
-  }/* В этом файле вы импортируете все шрифты для сайта. Один из них вариативный и требует особенной настройки */
+  }
