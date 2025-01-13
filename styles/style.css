@@ -22,7 +22,7 @@
   background-color: #000;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: 100% clamp(60rem, 65.232rem + -26.161vb, 41.688rem);
+  background-size: 100%;
 }
 
 .header {
@@ -62,18 +62,27 @@
 
 .main-card {
   border: 2px solid #000000;
-  margin-top: 40px;
+  margin-top: 55px;
   width: var(--h-width);
   background-color: white;
+  min-height: 954px;
+}
+
+.another-size {
+  min-height: 1010px;
 }
 
 .card-title {
   font-family: var(--main-font);
-  font-weight: var(--title-fw);
+  font-variation-settings: "wght" var(--title-fw);
   font-size: var(--f-size);
   margin-inline-start: 5px;
   padding-top: 5px;
   padding-bottom: 5px;
+}
+
+.special-padding {
+  margin-top: 15px;
 }
 
 .card-image {
@@ -85,20 +94,20 @@
   display: grid;
   grid-template-columns: auto;
   padding: clamp(0rem, -0.298rem + 1.49vw, 1.563rem);
-  margin-top: 10px;
+  margin-top: 8px;
+  margin-left: 5px;
 }
 
 .card-text {
   font-family: var(--main-font);
-  font-weight: 400;
+  font-variation-settings: "wght" var(--text-fw);
   font-size: var(--f-size);
-  margin-bottom: 20px;
+  margin-bottom: 24px;
+  padding-top: 5px;
 }
 
 .footer-of-card {
   display: flex;
-  margin-top: 17px;
-  margin-bottom: 20px;
   margin-right: 5px;
   justify-self: end;
   justify-content: center;
