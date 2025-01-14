@@ -26,7 +26,7 @@
 }
 
 .header {
-  margin-top: 250px;
+  margin-top: 100px;
   display: grid;
   background-color: white;
   max-width: var(--h-width);
@@ -34,6 +34,7 @@
   padding-top: 130px;
   padding-bottom: 130px;
   border: 2px solid #000000;
+  margin-bottom: 100px;
 }
 
 .head {
@@ -62,14 +63,13 @@
 
 .main-card {
   border: 2px solid #000000;
-  margin-top: 55px;
   width: var(--h-width);
   background-color: white;
-  min-height: 954px;
+
 }
 
-.another-size {
-  min-height: 1010px;
+.main section:not(:last-of-type) {
+  margin-bottom: 58px;
 }
 
 .card-title {
@@ -82,7 +82,7 @@
 }
 
 .special-padding {
-  margin-top: 15px;
+  margin-top: 0px;
 }
 
 .card-image {
@@ -96,6 +96,7 @@
   padding: clamp(0rem, -0.298rem + 1.49vw, 1.563rem);
   margin-top: 8px;
   margin-left: 5px;
+  margin-right: 5px;
 }
 
 .card-text {
@@ -172,6 +173,9 @@
 .end-of-html {
   display: flex;
   align-self: center;
+  height: 55px;
+  width: 335px;
+  margin-bottom: 100px;
 }
 
 .end-of-html-button {
@@ -179,7 +183,7 @@
   margin-bottom: 50px;
   display: flex;
   gap: 8px;
-  padding: 15px 20px 15px 20px;
+  padding: 10px 5px 10px 5px;
   height: 55px;
   background-color: inherit;
   border: 2px solid #000000;
@@ -304,6 +308,7 @@
   padding: 9px 17px 9px 17px;
   width: 293px;
   height: 38px;
+  margin-top: 12px;
   background-color: inherit;
   border: 2px solid #000000;
 }
@@ -406,7 +411,7 @@
 
 @media (width <=740px) {
   .header {
-    width: 90vw;
+    width: 95vw;
     padding-top: 120px;
     padding-bottom: 120px;
   }
@@ -420,10 +425,13 @@
   }
 
   .main-card {
-    width: 90vw;
+    width: 95vw;
     padding-left: 5px;
     padding-right: 5px;
-    margin-top: 50px;
+  }
+
+  .main section:not(:last-of-type) {
+    margin-bottom: 52px;
   }
 
   .card-title {
@@ -459,5 +467,14 @@
     display: grid;
     grid-template-rows: 1fr 1fr;
     height: 80px;
+    margin-bottom: 20px;
+  }
+
+  .end-of-html {
+    margin-left: 50px;
+  }
+
+  .btn-icon {
+    margin-left: 108px;
   }
 }
