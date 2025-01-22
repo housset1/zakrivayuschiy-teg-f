@@ -173,7 +173,6 @@
 .end-of-html {
   display: flex;
   align-self: center;
-  height: 55px;
   width: 335px;
   margin-bottom: 100px;
 }
@@ -219,6 +218,7 @@
   mix-blend-mode: difference;
   z-index: 2;
   position: relative;
+  align-self: center;
 }
 
 .f-image {
@@ -411,9 +411,10 @@
 
 @media (width <=740px) {
   .header {
-    width: 95vw;
+    width: 100vw;
     padding-top: 120px;
     padding-bottom: 120px;
+    align-self: center;
   }
 
   .header-title {
@@ -425,9 +426,10 @@
   }
 
   .main-card {
-    width: 95vw;
+    width: 100vw;
     padding-left: 5px;
     padding-right: 5px;
+    align-self: center;
   }
 
   .main section:not(:last-of-type) {
