@@ -173,7 +173,7 @@
 .end-of-html {
   display: flex;
   align-self: center;
-  width: 335px;
+  width: 340px;
   margin-bottom: 100px;
 }
 
@@ -181,8 +181,7 @@
   margin-top: 50px;
   margin-bottom: 50px;
   display: flex;
-  gap: 8px;
-  padding: 10px 5px 10px 5px;
+  padding: 10px 22px 10px 12px;
   height: 55px;
   background-color: inherit;
   border: 2px solid #000000;
@@ -219,6 +218,8 @@
   z-index: 2;
   position: relative;
   align-self: center;
+  margin-left: 8px;
+  margin-right: 7px;
 }
 
 .f-image {
@@ -249,8 +250,8 @@
 
 .img-lable {
   position: absolute;
-  top: 20px;
-  right: 30px;
+  top: 27px;
+  right: 27px;
   mix-blend-mode: hard-light;
   font-family: var(--var-font);
   font-size: 14px;
@@ -288,7 +289,6 @@
   padding-top: 30px;
   justify-items: center;
 }
-
 .dialog-text {
   display: grid;
   grid-template-columns: 50px 220px;
@@ -348,58 +348,58 @@
 
 .heart>.core {
   fill: #fff;
-  animation-duration: 0.3s;
-  animation-delay: 0.3s;
+  animation-duration: 0.3s linear;
+  animation-delay: 0.3s linear;
 }
 
 .heart:hover>.core {
   fill: var(--contour-color);
-  transition: 0.3s;
+  transition: 0.3s linear;
 }
 
 .heart:active>.core {
   fill: var(--main-body-color);
-  transition: 0.3s;
+  transition: 0.3s linear;
 }
 
 .like-icon.is-liked .heart>.core {
   fill: var(--main-body-color);
-  transition: 0.3s;
+  transition: 0.3s linear;
 }
 
 .heart>.main-body {
   fill: #fff;
-  transition: 0.3s;
+  transition: 0.3s linear;
 }
 
 .heart:hover>.main-body {
   fill: var(--contour-color);
-  animation-delay: 0.05s;
-  transition: 0.3s;
+  animation-delay: 0.05s linear;
+  transition: 0.3s linear;
 }
 
 .heart:active>.main-body {
   fill: var(--main-body-color);
-  animation-delay: 0.05s;
-  transition: 0.3s;
+  animation-delay: 0.05s linear;
+  transition: 0.3s linear;
 }
 
 .like-icon.is-liked .heart>.main-body {
   fill: var(--main-body-color);
-  animation-delay: 0.05s;
-  transition: 0.3s
+  animation-delay: 0.05s linear;
+  transition: 0.3s linear;
 }
 
 .like-icon.is-liked .heart>.contour {
   fill: var(--main-body-color);
-  animation-delay: 0.06s;
-  transition: 0.3s;
+  animation-delay: 0.06s linear;
+  transition: 0.3s linear;
 }
 
 .like-icon .heart>.contour {
   fill: var(--contour-color);
-  animation-delay: 0.06s;
-  transition: 0.3s;
+  animation-delay: 0.06s linear;
+  transition: 0.3s linear;
 }
 
 .is-liked .heart {
