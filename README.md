@@ -1,3 +1,1 @@
-https://github.com/housset1/zakrivayuschiy-teg-f.git
-
-https://housset1.github.io/zakrivayuschiy-teg-f/
+В этой папке будут храниться все необходимые SVG-файлы для сайта.
