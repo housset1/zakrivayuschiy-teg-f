@@ -109,7 +109,7 @@
 
 .footer-of-card {
   display: flex;
-  margin-right: 5px;
+  margin-right: 15px;
   justify-self: end;
   justify-content: center;
   align-items: center;
@@ -174,7 +174,6 @@
   display: flex;
   align-self: center;
   width: 340px;
-  margin-bottom: 100px;
 }
 
 .end-of-html-button {
@@ -213,7 +212,7 @@
 }
 
 .btn-icon {
-  stroke: var(--brand-color);
+  fill: var(--brand-color);
   mix-blend-mode: difference;
   z-index: 2;
   position: relative;
@@ -288,6 +287,7 @@
   padding-bottom: 30px;
   padding-top: 30px;
   justify-items: center;
+  margin-top: 50px;
 }
 .dialog-text {
   display: grid;
@@ -407,10 +407,10 @@
   transform-origin: center;
 }
 
-
-
-
 @media (width <=740px) {
+  .page {
+    justify-self: revert;
+  }
   .header {
     width: 100vw;
     padding-top: 120px;
@@ -428,8 +428,6 @@
 
   .main-card {
     width: 100vw;
-    padding-left: 5px;
-    padding-right: 5px;
     align-self: center;
   }
 
@@ -440,10 +438,9 @@
   .card-title {
     padding-right: 5px;
   }
-
   .card-description {
     line-height: 21px;
-    margin-top: 30px;
+    margin-top: 20px;
     margin-left: 5px;
     margin-right: 5px;
     font-size: 18px;
@@ -479,5 +476,12 @@
 
   .btn-icon {
     margin-left: 108px;
+    width:28px;
+    height: 28px;
+  }
+  .min-size {
+    margin-left: 10px;
+    width:39px;
+    height: 39px;
   }
 }
